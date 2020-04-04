@@ -15,7 +15,7 @@ function deleteCrad(){
 }
 
 function showCard(IDe,no) {
-    window.scrollTo(0, 90); 
+    window.scrollTo(0, 100); 
     IDe.preventDefault();
     
     let pok = '';
