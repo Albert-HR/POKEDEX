@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>POKEDEX</title>
+</head>
+<body onload="InitPage();">
+    <script src="app.js"></script>
+
+    <!-- TITLE -->
+    <div id="PKD">
+        POKEDEX
+    </div>
+
+    <div class="row">
+
+        <!-- Tarjeta -->
+        <div class="col-m-4 col-s-12" id="tj">
+            <!-- style="height: 2.2em;" -->
+            <div class="crd" id="card">
+            <div style="height: 2.1em;"><button id="x">x</button></div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Pokemn -->
+        <div class="col-m-8 pkm">
+
+            <div class="row">
+                <!-- selector -->
+                <div class="col-m-12 col-s-12">
+                    
+                    <div style="padding-left: 0.5em;" id="ftxt">Filtrar por tipo:
+                        
+                        <select onchange="selceted(this.value);" name="" id="fsel">
+                        </select>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 1em;" class="trow" id="lista">
+                <!-- Lista -->
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-m-12 col-s-12" id="pie">
+            Examen Práctico 2° Parcial
+        </div>
+    </div>
+
+</body>
+</html>
